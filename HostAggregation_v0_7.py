@@ -134,12 +134,12 @@ globalServerList = unitedKingdomVMList + americasVMList + chinaVMList + japanVML
 
 
 # The following was used for debugging to make sure that the resulting list were correct
-#####################################debugging output#############################################
-pd.DataFrame(unitedKingdomVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\unitedKingdomVMList.csv", index=False)
-pd.DataFrame(americasVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\americasVMList.csv", index=False)
-pd.DataFrame(chinaVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\chinaVMList.csv", index=False)
-pd.DataFrame(japanVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\japanVMList.csv", index=False)
-pd.DataFrame(physicalServerList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\japanVMList.csv", index=False)
+#####################################debugging output############################################# - FOR TESTING ONLY: Do Not Use in Production
+#pd.DataFrame(unitedKingdomVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\unitedKingdomVMList.csv", index=False)
+#pd.DataFrame(americasVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\americasVMList.csv", index=False)
+#pd.DataFrame(chinaVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\chinaVMList.csv", index=False)
+#pd.DataFrame(japanVMList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\japanVMList.csv", index=False)
+#pd.DataFrame(physicalServerList, columns=["Hostname"]).to_csv(r"C:\Users\cdominguez\python\aggregationtool\DebugFiles\japanVMList.csv", index=False)
 ##################################################################################################
 
 
