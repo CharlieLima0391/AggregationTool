@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# HostAggregation_v0_3.py
+# HostAggregation_v0_6.py
 
 #	Chris Quintero Dominguez
 #	26/10/2024
